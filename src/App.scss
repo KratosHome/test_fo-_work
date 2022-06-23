@@ -1,0 +1,24 @@
+*,
+a,
+ul,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: calc((90vw - 470px) / (3980 - 470) * (16 - 10) + 14px);
+  text-decoration: none;
+  list-style: none;
+}
+
+.appContainer{
+  margin-top: 100px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+  div {
+    padding-right: 20px;
+  }
+}
